@@ -11,30 +11,163 @@ img{
 body{
   font-size: 16px;
   font-family: 'Times New Roman', Times, sans-serif;
-  background-color: aliceblue;
+  background-color: rgba(240, 248, 255, 0.954);
 }
+
 .nav{
+  border-bottom: 2px solid #333;
+  width: 100%;
+  height: 150px;
   background-color: blue;
   color: #fff;
-  border-bottom: 2px solid #333;
-  height: 150px;
+  
 }
+
 .logo img{
-  display: inline-block;
-  margin: 1rem;
+  margin: auto 2rem;
   width: 100px;
   height: auto;
   border: 2px double white;
   border-radius: 50%;
 }
-.logo h1{
-  display: inline-block;
-  text-align: center;
-  margin-bottom: 2rem;
+section .nav2{
+ padding: 16px;
 
 }
-.logo p{
+.nav2 p{
+  background-color: rgb(134, 134, 218);
   display: inline-block;
-  text-align: right;
-  padding: 2rem;
+  font-size: 16px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  color: white;
+
 }
+/* section one  main style */
+.indiv-reg p{
+  background-color: blue;
+  color: #fff;
+  font-size: 10px;
+  padding: 5px;
+  border-bottom: 1px solid white;
+}
+.indiv-reg input{
+  display: inline-block;
+  width: 200px;
+  margin: 0.25rem 0;
+  text-align: left;
+  outline: none;
+}
+.indiv-reg label{
+  display: inline-block;
+  width: 200px;
+  margin: 0.25rem 0;
+  text-align: right;
+}
+/* section two main style */
+.forgot-p p{
+  background-color: blue;
+  color: #fff;
+  font-size: 10px;
+  padding: 5px;
+  border-bottom: 1px solid white;
+
+}
+.forgot-p select{
+  display: inline-block;
+  width: 200px;
+  margin: 0.25rem 0;
+  text-align: left;
+}
+.forgot-p label{
+  display: inline-block;
+  width: 200px;
+  margin: 0.25rem 0;
+  text-align: right;
+}
+.forgot-p input{
+  display: inline-block;
+  width: 200px;
+  margin: 0.25rem 0;
+  text-align: left;
+  outline: none;
+}
+/* section three main style */
+.details p{
+  background-color: blue;
+  color: #fff;
+  font-size: 10px;
+  padding: 5px;
+  border-bottom: 1px solid white;
+}
+.details input{
+  display: inline-block;
+  width: 200px;
+  margin: 0.25rem 0;
+  text-align: left;
+  outline: none;
+}
+.details label{
+  display: inline-block;
+  width: 200px;
+  margin: 0.25rem 0;
+  text-align: right;
+
+}
+.details select{
+  display: inline-block;
+  width: 200px;
+  margin: 0.25rem 0;
+  text-align: left;
+
+}
+
+/* section four main style */
+.owner-details p{
+  background-color: blue;
+  color: #fff;
+  font-size: 10px;
+  padding: 5px;
+  border-bottom: 1px solid white;
+
+}
+.owner-details .mini-para{
+  display: block;
+  text-align: right;
+  font-size: 10px;
+  padding: 5px;
+  
+}
+
+.owner-details label{
+  display: inline-block;
+  margin: 0.25rem 0;
+  text-align: right;
+
+
+}
+.owner-details input{
+  display: inline-block;
+  width: 150px;
+  margin: 0.25rem 0;
+  text-align: left;
+  outline: none;
+}
+
+.owner-details .captcha{
+  display: inline-block;
+  width: 150px;
+  margin: 0.25rem 0;
+  text-align: left;
+  outline: none;
+
+}
+
+button{
+  display: inline-block;
+  text-align: center;
+  
+}
+
+
+
