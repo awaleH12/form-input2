@@ -24,19 +24,35 @@ body{
 }
 
 .logo img{
-  margin: auto 2rem;
+  display: flex;
+  float: left;
+  margin: 2rem 1rem 0 1rem;
   width: 100px;
   height: auto;
   border: 2px double white;
   border-radius: 50%;
 }
-section .nav2{
- padding: 16px; 
+.logo h1{
+  display: flex;
+  float: center;
 
 }
+.logo p{
+  display: flex;
+  float:right;
+
+}
+
+/* section .nav2{
+ padding: 16px; 
+
+} */
 .nav2 p{
-  background-color: rgb(134, 134, 218);
+  background-color: hsla(206, 85%, 52%, 0.996);
   display: inline-block;
+  text-align: right;
+  font-size: 10px;
+  padding: 5px;
   font-size: 16px;
   width: 100%;
   border-bottom: 1px solid white;
@@ -163,10 +179,16 @@ section .nav2{
 
 }
 
-button{
+.submit-reset button{
   display: inline-block;
   text-align: center;
+  margin: 0.25rem;
   
+}
+.tbutton button{
+  display: flex;
+  float: right;
+  margin: 0.25rem;
 }
 
 
